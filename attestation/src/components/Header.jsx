@@ -13,6 +13,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand> <Link to={'/'}>A&B</Link> </Navbar.Brand>
           <Nav className="me-auto">
+            <div class="center">
             <Nav.Link>
               <Link to={'/'}>
               Главная
@@ -33,6 +34,7 @@ const Header = () => {
               Описание
               </Link>
               </Nav.Link>
+            </div>
           </Nav>
           <Nav>
             <Button variant="primary">

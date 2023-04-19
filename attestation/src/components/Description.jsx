@@ -22,8 +22,7 @@ const Description = () => {
           duration:2
         }}
         >
-          Complete documentation of the Framer Motion animation library. 
-          A production-ready motion library for React.</motion.div>
+          Добрый день, вы находитесь на одной из страниц просто сайта </motion.div>
 
           <motion.div id='div2'
           initial={{

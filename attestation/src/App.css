@@ -11,6 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  .offset-md-2 {
+    text-align: center;
+}
 }
 
 .App-header {
@@ -73,4 +76,20 @@ a:hover{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.me-auto{
+  margin: 0 auto;
+}
+.center a :hover{
+ color: #61dafb;
+}
+.center{
+  display: flex;
+  justify-content: space-around;
+}
+.center a{
+  margin-left: 50px ;
+}
+button:hover{
+  transform: translate(0, 1px);
 }
